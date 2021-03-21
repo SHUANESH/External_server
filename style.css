@@ -81,13 +81,22 @@ img:hover{
     #container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 8px;
         grid-auto-rows: minmax(100px, auto);
         justify-content: center;
-        font-size: medium;
+        
     }
     img{
-        width: 100px;
+        width: 120px;
         height: 180px;
+    }
+    img:hover{
+        box-shadow: 15px -16px 7px -8px rgba(255, 255, 255, 0.589);
+        width: 110px;
+        height: 170px;
+    }
+
+    input , label ,button , h4{
+        font-size: 13px;
     }
 }
