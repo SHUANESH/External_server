@@ -81,7 +81,7 @@ img:hover{
     #container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
+        gap: 1px;
         grid-auto-rows: minmax(100px, auto);
         justify-content: center;
         
