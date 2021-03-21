@@ -77,3 +77,17 @@ img:hover{
         justify-content: center;
     }
 }
+@media screen and (max-width: 400px) {
+    #container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        grid-auto-rows: minmax(100px, auto);
+        justify-content: center;
+        font-size: medium;
+    }
+    img{
+        width: 150px;
+        height: 200px;
+    }
+}
