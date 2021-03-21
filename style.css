@@ -63,6 +63,9 @@ img:hover{
         grid-auto-rows: minmax(100px, auto);
         justify-content: center;
     }
+    input , label ,button{
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 1400px) {
