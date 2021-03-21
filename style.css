@@ -96,7 +96,13 @@ img:hover{
         height: 170px;
     }
 
-    input , label ,button , h4{
+    input , label ,button{
         font-size: 13px;
+    }
+    h4{
+        font-size: 8px;
+    }
+    h3{
+        font-size: 12px;
     }
 }
