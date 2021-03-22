@@ -24,7 +24,7 @@ async function Show_search_results_list() {
             container.innerHTML += `<div class='item_class'>
                                       <h3> Name: ${resultArray.name}</h3>
                                       <a href="${resultArray.url}">
-                                      <img src="${resultArray.image.medium}" alt="img" id="lod_img" height="260px" width="200px" />
+                                      <img src="${resultArray.image.medium} " id="img_array" alt="img" id="lod_img" height="260px" width="200px" />
                                       </a> 
                                       <h4> Genre: ${resultArray.genres}</h4> 
                                     </div>
